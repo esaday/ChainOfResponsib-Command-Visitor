@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7399C6B1-9DB9-4134-8DE4-46466CBA9051}</ProjectGuid>
+    <ProjectGuid>{FB6FC248-94BA-4470-A110-854997F26F63}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ChainOfResp</RootNamespace>
-    <AssemblyName>ChainOfResp</AssemblyName>
+    <RootNamespace>VisitorWithExtension</RootNamespace>
+    <AssemblyName>VisitorWithExtension</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lib\Chain.cs" />
-    <Compile Include="Lib\Coin.cs" />
-    <Compile Include="Lib\CoinHole.cs" />
-    <Compile Include="Lib\CoinSorter.cs" />
+    <Compile Include="Lib\Cheese.cs" />
+    <Compile Include="Lib\ConsumerGood.cs" />
+    <Compile Include="Lib\TaxExtension.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

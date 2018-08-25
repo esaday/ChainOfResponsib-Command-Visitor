@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChainOfResp.Lib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace ChainOfResp
     {
         static void Main(string[] args)
         {
+            CoinSorter cs = new CoinSorter();
+
+            Console.ReadKey();
         }
     }
 }
